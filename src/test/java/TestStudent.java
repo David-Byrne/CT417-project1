@@ -1,4 +1,5 @@
 import org.joda.time.DateTime;
+
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
@@ -16,6 +17,7 @@ public class TestStudent {
 
         Student stu3 = new Student("Alice Jones", 7, new DateTime(), "444");
         assertEquals("Alice Jones7", stu3.getUsername());
+        assertEquals(1,2);
     }
 
 }
